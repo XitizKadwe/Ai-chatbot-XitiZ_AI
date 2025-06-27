@@ -518,3 +518,58 @@ body {
     display: none;
   }
 }
+/* Common styles for high-end phones (OnePlus, Nothing, Pixel, Samsung) */
+@media (min-width: 390px) and (max-width: 440px) {
+  body {
+    padding: 6px;
+  }
+
+  .app {
+    height: 100vh;
+    border-radius: 16px;
+  }
+
+  .header {
+    padding: 14px 20px;
+  }
+
+  .logo-text {
+    font-size: 20px;
+  }
+
+  .model-info {
+    display: flex;
+    gap: 8px;
+    font-size: 12px;
+  }
+
+  .message {
+    max-width: 100%;
+  }
+
+  .text {
+    font-size: 14px;
+  }
+
+  .input-area {
+    padding: 14px;
+  }
+
+  .input-container {
+    padding: 4px;
+    align-items: center;
+  }
+
+  .input-container button {
+    width: 44px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #1d4ed8;
+    border: 1px solid #1d4ed8;
+  }
+
+  .input-footer p {
+    font-size: 10px;
+    color: #666;
+  }
+}
