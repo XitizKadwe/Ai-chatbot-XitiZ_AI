@@ -18,7 +18,7 @@ const App = () => {
   const [error, setError] = useState(null);
   const messagesEndRef = useRef(null);
 
-  const API_KEY = "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";
+  const API_KEY = import.meta.env.VITE_OPENROUTER_API_KEY;
 
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
